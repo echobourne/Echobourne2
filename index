@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AI Funtime Voice</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>AI Funtime Voice</h1>
+    <label for="vibe">Choose your vibe:</label>
+    <select id="vibe">
+      <option value="dominant">Dominant</option>
+      <option value="gentle">Gentle</option>
+      <option value="flirty">Flirty</option>
+    </select>
+    <button id="startBtn">Start Call</button>
+    <audio id="audioPlayer" controls></audio>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
